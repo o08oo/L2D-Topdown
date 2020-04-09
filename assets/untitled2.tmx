@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="2020.03.18" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="12">
+ <imagelayer id="2" name="Image Layer 1">
+  <image source="map2.png" width="320" height="180"/>
+ </imagelayer>
+ <objectgroup id="4" name="Object Layer 1">
+  <object id="8" x="32.9869" y="17.1639" width="156.889" height="50.9554"/>
+  <object id="9" x="222.058" y="45.0553" width="59.5374" height="41.8371"/>
+  <object id="10" x="83.9423" y="111.297" width="127.389" height="38.0825"/>
+  <object id="11" name="door" x="241.948" y="109.348" width="20.7384" height="20.11">
+   <properties>
+    <property name="leadsto" value="scene1"/>
+    <property name="nextmapplayerx" type="int" value="20"/>
+    <property name="nextmapplayery" type="int" value="20"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
